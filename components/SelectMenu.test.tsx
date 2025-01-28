@@ -13,6 +13,6 @@ describe("SelectMenu test", () => {
     fireEvent.click(screen.getByText("Orange"));
 
     expect(screen.queryByText("Apple")).not.toBeInTheDocument();
-    expect(screen.queryByText("Orange")).toBeInTheDocument();
+    expect(screen.queryByText("Orangeee")).toBeInTheDocument();
   });
 });
